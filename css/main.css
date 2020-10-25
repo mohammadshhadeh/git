@@ -185,7 +185,11 @@ nav a:hover {
     }
 }
 
+<<<<<<< HEAD
 @media all and (min-width: 1140px) {
+=======
+@media only screen and (min-width: 1140px) {
+>>>>>>> d7abc33... more clean on main.css file
     .wrapper {
         width: 1026px; /* 1140px - 10% for margins */
         margin: 0 auto;
