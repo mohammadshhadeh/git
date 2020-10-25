@@ -51,11 +51,6 @@ textarea {
     padding: 0.2em 0;
 }
 
-
-/* ===== Initializr Styles ==================================================
-   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
-   ========================================================================== */
-
 body {
     font: 16px/26px Helvetica, Helvetica Neue, Arial;
 }
@@ -64,10 +59,6 @@ body {
     width: 90%;
     margin: 0 5%;
 }
-
-/* ===================
-    ALL: Orange Theme
-   =================== */
 
 .header-container {
     border-bottom: 20px solid #e44d26;
@@ -87,10 +78,6 @@ body {
 .title {
     color: white;
 }
-
-/* ==============
-    MOBILE: Menu
-   ============== */
 
 nav ul {
     margin: 0;
@@ -150,29 +137,7 @@ nav a:hover {
     padding-top: 20px;
 }
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ==========================================================================
-   Media Queries
-   ========================================================================== */
-
-@media only screen and (min-width: 480px) {
+@media all and (min-width: 480px) {
 
 /* ====================
     INTERMEDIATE: Menu
