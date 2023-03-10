@@ -1,4 +1,49 @@
+# Git Commands
 
+## Create repositories
+```bash
+$ git init
+```
+
+```bash
+$ git clone [url]
+```
+
+## Configure tooling
+
+```bash
+$ git config --global user.name "[name]"
+```
+
+```bash
+$ git config --global user.email "[email address]"`
+```
+
+## Branches
+
+```bash
+$ git branch [branch-name]
+```
+```bash
+$ git checkout [branch-name]
+```
+```bash
+$ git branch -d [branch-name]
+```
+
+## Synchronize changes
+
+```bash
+$ git fetch
+```
+
+## 1. Blank commits
+
+```bash
+git commit --allow empty -m 'it works!'
+```
+
+-----
 `git reflog`
 
 `git reset HEAD@{index}`
