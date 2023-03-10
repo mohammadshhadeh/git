@@ -37,10 +37,15 @@ $ git branch -d [branch-name]
 $ git fetch
 ```
 
-## 1. Blank commits
+### 1. Blank commits
 
 ```bash
 git commit --allow empty -m 'it works!'
+```
+
+### 2. View a file of another branch
+```bash
+$ git show main:README.md
 ```
 
 -----
